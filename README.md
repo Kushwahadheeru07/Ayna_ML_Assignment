@@ -46,8 +46,6 @@ Encoder-Decoder Structure: The UNet followed a standard encoder-decoder architec
 
 4. Training Dynamics and Insights
 
-(Here, you should add your specific observations from the wandb logs. The following is an example based on typical training trends.)
-
 Loss Curves: The wandb loss curves showed a steady decrease in both training and validation loss, indicating that the model was learning and not significantly overfitting.
 
 Qualitative Output Trends: Early in the training (e.g., epochs 1-10), the model's outputs were blurry, low-resolution blobs of color. As training progressed, the model started to correctly identify the polygon's boundaries and fill it with the correct color. By the final epochs, the outputs were sharp and closely resembled the ground truth images.
